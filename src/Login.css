@@ -1,0 +1,101 @@
+.Login{
+    position: relative;
+    height:100%;
+    background: url("https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?auto=webp&s=9659527da9196c27a8875200b41d20a8e901c341")
+                 center no-repeat;
+    background-size:cover;           
+}
+
+.Sign-in__button{
+   position: fixed;
+   right:20px;
+   padding: 10px 20px;
+   top:20px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  cursor:pointer; 
+  font-weight:600;
+}
+
+.Login__gradient{
+    z-index:1;
+    height:100vh;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top, 
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.6) 100%
+    );
+
+}
+.Login__body{
+    position:absolute;
+    top:25%;
+    z-index: 1;
+    color:#fff;
+    paading: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+   
+
+}
+
+.Login__body h1{
+    font-size:3rem;
+    margin-bottom: 20px;
+
+}
+.Login__body h2{
+    font-size:2rem;
+    margin-bottom: 20px;
+    font-weight:500;
+
+}
+.Login__input form input{
+    padding: 9px;
+    outline-width:0;
+    height: 28px;
+    width:30%;
+    border: none;
+    max-width: 600px;
+}
+.email_button{
+    padding: 14px 20px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background:#e50914;
+    cursor: pointer;
+}
+.Login__input{
+    margin: 20px;
+}
+
+@media screen and (max-width: 360px) {
+    .Login__body {
+        top: 20%; 
+        padding: 10px; 
+    }
+
+    .Login__body h1 {
+        font-size: 2rem; 
+        margin-bottom: 15px; 
+    }
+
+    .Login__body h2 {
+        font-size: 1.5rem; 
+        margin-bottom: 15px; 
+    }
+
+    .Login__input form input {
+        width: 100%; 
+        max-width: none;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}

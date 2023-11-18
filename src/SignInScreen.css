@@ -1,0 +1,55 @@
+.sign__In{
+
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.85);
+}
+.sign__In h1{
+ text-align: left;
+ margin-bottom: 25px;
+
+}
+
+.sign__In form{
+    display: grid;
+    flex-direction: coloumn;
+}
+
+.sign__In form input{
+    outline-width:0;
+    height: 35px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+.sign__In form button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    background-color:#e50914;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.sign__In form  h4{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signup_grey{
+    color: grey;
+}
+
+.signup_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
